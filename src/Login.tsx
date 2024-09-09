@@ -34,7 +34,7 @@ export default function Login() {
         <Text>Ainda não tem cadastro?  </Text>
         <TouchableOpacity>
           <Text color={"blue.500"}>Faça seu cadastro </Text>
-        </TouchableOpacity>
+        </TouchableOpacity> 
       </Box>
     </VStack>
   );
