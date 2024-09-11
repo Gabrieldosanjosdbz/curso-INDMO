@@ -25,7 +25,7 @@ export default function Login({ navigation }) {
           <Input placeholder='Insira sua senha' size={'lg'} w={'100%'} borderLeftRadius={'lg'} bgColor={'gray.100'} shadow={3}/>
         </FormControl>
       </Box>
-      <Button w={'100%'} bg={"blue.800"} mt={10} borderRadius={"lg"}>
+      <Button w={'100%'} bg={"blue.800"} mt={10} borderRadius={"lg"} onPress={() => navigation.navigate('Tabs')}>
         Entrar
       </Button>
       <Link href='https://www.alura.com.br' mt={2}>Esqueceu sua senha?</Link>
