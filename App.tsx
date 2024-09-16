@@ -9,7 +9,7 @@ export default function App() {
 
     //aqui estou provendo o css para meu componente Login
     <NativeBaseProvider theme={temas} >
-      <StatusBar />
+        <StatusBar backgroundColor={temas.color.blue[800]}/>
         <Rotas />
     </NativeBaseProvider>
   );
